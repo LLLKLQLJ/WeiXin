@@ -1,0 +1,7 @@
+<view class="vivid">
+<text>111</text>
+<view>{{da.title}}</view>
+<view>{{da.time}}</view>
+<view><image src="{{da.img}}" class="in-img" background-size="cover" model="scaleToFill"></image></view>
+<view>{{da.content}}</view>
+</view>

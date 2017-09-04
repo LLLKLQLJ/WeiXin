@@ -1,0 +1,15 @@
+<view class="about">
+  <template name="items">
+    <navigator url="../list/list?id={{id}}" hover-class="navigator-hover">
+       <view class="imgs"><image src="{{img}}" class="in-img" background-size="cover" model="scaleToFill"></image></view>
+       <view class="infos">
+          <view class="title" >{{title}}</view>
+          <view class="date">{{time}}</view>
+       </view>
+    </navigator>
+  </template>
+     
+     <view wx:for="{{newsList}}" class="list">
+     <template is="items" data="{{...item}}"/>
+     </view>
+</view>

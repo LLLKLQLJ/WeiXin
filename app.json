@@ -1,0 +1,19 @@
+{
+  "pages":[
+ 
+    "pages/index/index",
+    "pages/components/out/out",
+    "pages/components/dishes/dishes",
+    "pages/components/take/take",
+    "pages/components/bill/bill",
+    "pages/components/list/list"
+    
+  ],
+  "window":{
+    "backgroundColor":"#f4f4f4",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "orange",
+    "navigationBarTitleText": "美食菜单",
+    "navigationBarTextStyle":"white"
+  }
+}
